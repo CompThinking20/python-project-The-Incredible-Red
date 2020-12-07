@@ -9,6 +9,8 @@ class Player(object):
         self.hitting = hitting
 # This is the first player, more will come as the project moves along
 devyn = Player("Devyn Cobb", 6, 5, 8)
+morgan = Player("Morgan Fox", 9, 6, 4)
+kayla = Player("Kayla Benezs", 8, 8, 7)
 # This rating system will be taken into consideration when the random number for each task is given out and will allow to program to decide if the next task will be successful
 #Ultimately I want to create a game that will show the results of a volleyball match played with players out of their normal positions
 #This program will take a value agrument of how well each player can perform a certain task and it will return the results of if the home team got a kill or lost the point
