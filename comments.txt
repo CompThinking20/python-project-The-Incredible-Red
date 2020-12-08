@@ -1,1 +1,4 @@
 The first step to revision here is making sure your file is properly named: it needs to be in all lower case, no spaces with a .py ending. Other than that, it seems like you're on the right track here. The next step, I think, is writing a function that will take players as arguments and get them to actually play. I recommend not simulating an entire game: just have one exchange of the ball between two players. Complexity can grow from there.
+
+MILESTONE 2 COMMENTS
+You're in good shape here. I think your next step is making the actions of each player affect the other. That is, right now, the first player in the sequence can drop the ball, but play continues with the other players. Consider looking into a while loop that will run until the ball is dropped and then having a break statement. If you can also rig up a points system, all the better.
