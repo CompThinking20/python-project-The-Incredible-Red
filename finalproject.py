@@ -8,6 +8,8 @@ class Player(object):
         self.setting = setting
         self.hitting = hitting
 # This is the first player, more will come as the project moves along
+success = 1
+dropped = 0
 devyn = Player("Devyn Cobb", 6, 5, 8)
 morgan = Player("Morgan Fox", 9, 6, 4)
 kayla = Player("Kayla Benezs", 8, 8, 7)
@@ -29,22 +31,29 @@ def play (back, set, hit):
         print (back.name + " passed the ball!")
     else:
         print (back.name + " dropped the ball!")
+        return dropped
 
     if (set_quality > back_quality):
         print (set.name + " set the ball!")
     else:
         print (set.name + " dropped the ball!")
+        return dropped
 
     if (hit_quality > set_quality):
         print (hit.name + " hit the ball!")
+        return success
     else:
         print (hit.name + " dropped the ball!")
+        return dropped
+
+
+
 
 play(devyn, morgan, kayla)
+print("Good Game!")
+#i = play(devyn, morgan, kayla)
+#while i != dropped:
+#    i = play(devyn, morgan, kayla)
+#at this point you are out and the ball was dropped
+#print("Good Game!")
 #This works for the most part, I am trying to get the code to stop running if the ball is dropped before the last person, or the hitter touches the ball. Work in progress.
-
-while i
-
-    if i == dropped
-        break
-    print("Good Game!")
