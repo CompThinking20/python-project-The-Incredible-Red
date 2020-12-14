@@ -42,3 +42,9 @@ def play (back, set, hit):
 
 play(devyn, morgan, kayla)
 #This works for the most part, I am trying to get the code to stop running if the ball is dropped before the last person, or the hitter touches the ball. Work in progress.
+
+while i
+
+    if i == dropped
+        break
+    print("Good Game!")
